@@ -1,0 +1,64 @@
+body {
+	background-color: #1e1f21;
+	font-family: Oswald;
+	margin: 0;
+}
+
+.square {
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	 display: inline-block;
+    margin-left: 5px;
+    height: 30px;
+    border-radius: 100%;
+  transition: all 0.7s;
+}
+.mymy{
+	background-color: white;
+	border: none;
+}
+button:hover{
+	background-color: steelblue;
+	text-transform: uppercase;
+	color: white;
+}
+button{
+text-transform: uppercase;
+font-family: Oswald;
+font-weight: 700;
+color: steelblue;
+transition: all 0.7s;
+}
+#container {
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	background-color: #274693;
+	height: 100px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 40px;
+	margin: 0;
+	text-transform: uppercase;;
+}
+#tryagain{
+	color: black;
+}
+#newline {background-color: white;
+	text-align: center;
+	word-spacing: 8px;
+}
+#picked{
+	color: grey;
+}
+#reset{
+	display: inline-block;
+	width: 20%;
+}
